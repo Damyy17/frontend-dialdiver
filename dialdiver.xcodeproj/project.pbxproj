@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6BF355E2BBF5D99002A34D1 /* dialdiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF355D2BBF5D99002A34D1 /* dialdiverApp.swift */; };
+		B6BF35602BBF5D99002A34D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF355F2BBF5D99002A34D1 /* ContentView.swift */; };
+		B6BF35622BBF5D9A002A34D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BF35612BBF5D9A002A34D1 /* Assets.xcassets */; };
+		B6BF35652BBF5D9A002A34D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BF35642BBF5D9A002A34D1 /* Preview Assets.xcassets */; };
+		B6BF356F2BBF5D9B002A34D1 /* dialdiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF356E2BBF5D9B002A34D1 /* dialdiverTests.swift */; };
+		B6BF35792BBF5D9B002A34D1 /* dialdiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF35782BBF5D9B002A34D1 /* dialdiverUITests.swift */; };
+		B6BF357B2BBF5D9B002A34D1 /* dialdiverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF357A2BBF5D9B002A34D1 /* dialdiverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6BF356B2BBF5D9B002A34D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BF35522BBF5D99002A34D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BF35592BBF5D99002A34D1;
+			remoteInfo = dialdiver;
+		};
+		B6BF35752BBF5D9B002A34D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BF35522BBF5D99002A34D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BF35592BBF5D99002A34D1;
+			remoteInfo = dialdiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6BF355A2BBF5D99002A34D1 /* dialdiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dialdiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BF355D2BBF5D99002A34D1 /* dialdiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialdiverApp.swift; sourceTree = "<group>"; };
+		B6BF355F2BBF5D99002A34D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6BF35612BBF5D9A002A34D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6BF35642BBF5D9A002A34D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6BF356A2BBF5D9B002A34D1 /* dialdiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dialdiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BF356E2BBF5D9B002A34D1 /* dialdiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialdiverTests.swift; sourceTree = "<group>"; };
+		B6BF35742BBF5D9B002A34D1 /* dialdiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dialdiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BF35782BBF5D9B002A34D1 /* dialdiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialdiverUITests.swift; sourceTree = "<group>"; };
+		B6BF357A2BBF5D9B002A34D1 /* dialdiverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialdiverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BF35572BBF5D99002A34D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BF35672BBF5D9B002A34D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BF35712BBF5D9B002A34D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6BF35512BBF5D99002A34D1 = {
+			isa = PBXGroup;
+			children = (
+				B6BF355C2BBF5D99002A34D1 /* dialdiver */,
+				B6BF356D2BBF5D9B002A34D1 /* dialdiverTests */,
+				B6BF35772BBF5D9B002A34D1 /* dialdiverUITests */,
+				B6BF355B2BBF5D99002A34D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BF355B2BBF5D99002A34D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF355A2BBF5D99002A34D1 /* dialdiver.app */,
+				B6BF356A2BBF5D9B002A34D1 /* dialdiverTests.xctest */,
+				B6BF35742BBF5D9B002A34D1 /* dialdiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BF355C2BBF5D99002A34D1 /* dialdiver */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF355D2BBF5D99002A34D1 /* dialdiverApp.swift */,
+				B6BF355F2BBF5D99002A34D1 /* ContentView.swift */,
+				B6BF35612BBF5D9A002A34D1 /* Assets.xcassets */,
+				B6BF35632BBF5D9A002A34D1 /* Preview Content */,
+			);
+			path = dialdiver;
+			sourceTree = "<group>";
+		};
+		B6BF35632BBF5D9A002A34D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF35642BBF5D9A002A34D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6BF356D2BBF5D9B002A34D1 /* dialdiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF356E2BBF5D9B002A34D1 /* dialdiverTests.swift */,
+			);
+			path = dialdiverTests;
+			sourceTree = "<group>";
+		};
+		B6BF35772BBF5D9B002A34D1 /* dialdiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF35782BBF5D9B002A34D1 /* dialdiverUITests.swift */,
+				B6BF357A2BBF5D9B002A34D1 /* dialdiverUITestsLaunchTests.swift */,
+			);
+			path = dialdiverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BF35592BBF5D99002A34D1 /* dialdiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BF357E2BBF5D9B002A34D1 /* Build configuration list for PBXNativeTarget "dialdiver" */;
+			buildPhases = (
+				B6BF35562BBF5D99002A34D1 /* Sources */,
+				B6BF35572BBF5D99002A34D1 /* Frameworks */,
+				B6BF35582BBF5D99002A34D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dialdiver;
+			productName = dialdiver;
+			productReference = B6BF355A2BBF5D99002A34D1 /* dialdiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6BF35692BBF5D9B002A34D1 /* dialdiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BF35812BBF5D9B002A34D1 /* Build configuration list for PBXNativeTarget "dialdiverTests" */;
+			buildPhases = (
+				B6BF35662BBF5D9B002A34D1 /* Sources */,
+				B6BF35672BBF5D9B002A34D1 /* Frameworks */,
+				B6BF35682BBF5D9B002A34D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BF356C2BBF5D9B002A34D1 /* PBXTargetDependency */,
+			);
+			name = dialdiverTests;
+			productName = dialdiverTests;
+			productReference = B6BF356A2BBF5D9B002A34D1 /* dialdiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6BF35732BBF5D9B002A34D1 /* dialdiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BF35842BBF5D9B002A34D1 /* Build configuration list for PBXNativeTarget "dialdiverUITests" */;
+			buildPhases = (
+				B6BF35702BBF5D9B002A34D1 /* Sources */,
+				B6BF35712BBF5D9B002A34D1 /* Frameworks */,
+				B6BF35722BBF5D9B002A34D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BF35762BBF5D9B002A34D1 /* PBXTargetDependency */,
+			);
+			name = dialdiverUITests;
+			productName = dialdiverUITests;
+			productReference = B6BF35742BBF5D9B002A34D1 /* dialdiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BF35522BBF5D99002A34D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					B6BF35592BBF5D99002A34D1 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					B6BF35692BBF5D9B002A34D1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B6BF35592BBF5D99002A34D1;
+					};
+					B6BF35732BBF5D9B002A34D1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B6BF35592BBF5D99002A34D1;
+					};
+				};
+			};
+			buildConfigurationList = B6BF35552BBF5D99002A34D1 /* Build configuration list for PBXProject "dialdiver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6BF35512BBF5D99002A34D1;
+			productRefGroup = B6BF355B2BBF5D99002A34D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6BF35592BBF5D99002A34D1 /* dialdiver */,
+				B6BF35692BBF5D9B002A34D1 /* dialdiverTests */,
+				B6BF35732BBF5D9B002A34D1 /* dialdiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BF35582BBF5D99002A34D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF35652BBF5D9A002A34D1 /* Preview Assets.xcassets in Resources */,
+				B6BF35622BBF5D9A002A34D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BF35682BBF5D9B002A34D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BF35722BBF5D9B002A34D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BF35562BBF5D99002A34D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF35602BBF5D99002A34D1 /* ContentView.swift in Sources */,
+				B6BF355E2BBF5D99002A34D1 /* dialdiverApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BF35662BBF5D9B002A34D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF356F2BBF5D9B002A34D1 /* dialdiverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BF35702BBF5D9B002A34D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BF35792BBF5D9B002A34D1 /* dialdiverUITests.swift in Sources */,
+				B6BF357B2BBF5D9B002A34D1 /* dialdiverUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6BF356C2BBF5D9B002A34D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BF35592BBF5D99002A34D1 /* dialdiver */;
+			targetProxy = B6BF356B2BBF5D9B002A34D1 /* PBXContainerItemProxy */;
+		};
+		B6BF35762BBF5D9B002A34D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BF35592BBF5D99002A34D1 /* dialdiver */;
+			targetProxy = B6BF35752BBF5D9B002A34D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6BF357C2BBF5D9B002A34D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6BF357D2BBF5D9B002A34D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BF357F2BBF5D9B002A34D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dialdiver/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damyteam.dialdiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6BF35802BBF5D9B002A34D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dialdiver/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damyteam.dialdiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6BF35822BBF5D9B002A34D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damyteam.dialdiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dialdiver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dialdiver";
+			};
+			name = Debug;
+		};
+		B6BF35832BBF5D9B002A34D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damyteam.dialdiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dialdiver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dialdiver";
+			};
+			name = Release;
+		};
+		B6BF35852BBF5D9B002A34D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damyteam.dialdiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dialdiver;
+			};
+			name = Debug;
+		};
+		B6BF35862BBF5D9B002A34D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.damyteam.dialdiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dialdiver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BF35552BBF5D99002A34D1 /* Build configuration list for PBXProject "dialdiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BF357C2BBF5D9B002A34D1 /* Debug */,
+				B6BF357D2BBF5D9B002A34D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BF357E2BBF5D9B002A34D1 /* Build configuration list for PBXNativeTarget "dialdiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BF357F2BBF5D9B002A34D1 /* Debug */,
+				B6BF35802BBF5D9B002A34D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BF35812BBF5D9B002A34D1 /* Build configuration list for PBXNativeTarget "dialdiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BF35822BBF5D9B002A34D1 /* Debug */,
+				B6BF35832BBF5D9B002A34D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BF35842BBF5D9B002A34D1 /* Build configuration list for PBXNativeTarget "dialdiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BF35852BBF5D9B002A34D1 /* Debug */,
+				B6BF35862BBF5D9B002A34D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BF35522BBF5D99002A34D1 /* Project object */;
+}
