@@ -9,13 +9,30 @@ import SwiftUI
 
 
 struct ContentView: View {
+    @State private var selectedTab: Tab = .home
+    
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-                .font(.custom("Clash Display", size: 36))
-                .fontWeight(.bold)
+        
+        ZStack{
+            VStack{
+                switch selectedTab {
+                    case .home:
+                        HomeView()
+                    case .notification:
+                    NotificationView(notifications: notificationsEx)
+                    case .favorites:
+                        FavoritesView()
+                    case .profile:
+                        ProfileView()
+                }
+            }
+            
+            VStack{
+                Spacer()
+                BottomNavBar(selectedTab: $selectedTab)
+            }
         }
-        .padding()
+        
     }
 }
 

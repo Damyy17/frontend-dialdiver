@@ -9,7 +9,26 @@ import SwiftUI
 
 struct ProductDetailsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack(alignment: .center){
+                Image("back-icon")
+                    .resizable()
+                    .frame(width: 24, height: 24)
+                
+                Spacer()
+
+                Text("Product Details")
+                    .font(.custom("Clash Display", size: 16))
+                    .foregroundColor(Color("main-text"))
+                    .fontWeight(.medium)
+                    
+                Spacer()
+            }
+            
+            
+            Spacer()
+        }
+        .padding(16)
     }
 }
 

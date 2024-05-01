@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct HeaderDetails: View {
+    @Binding var text: String
+    let title: String
+    let subtitle: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center){
+            
+            Text(title)
+                .foregroundColor(Color("main-text"))
+                .fontWeight(.semibold)
+                .font(.custom("Clash Display", size: 32))
+            
+            
+            Text(subtitle)
+                .foregroundColor(Color("main-text"))
+                .fontWeight(.regular)
+                .font(.custom("Clash Display", size: 16))
+                .multilineTextAlignment(.center)
+                .frame(width: UIScreen.main.bounds.width - 104)
+            
+        }
+        .padding(.horizontal, 16)
     }
 }
 
-#Preview {
-    HeaderDetails()
+struct HeaderDetails_Preview: PreviewProvider {
+    static var previews: some View{
+        HeaderDetails(text: .constant(""), title: "Log In", subtitle: "Please enter your credentials and get into your account.")
+    }
 }
+

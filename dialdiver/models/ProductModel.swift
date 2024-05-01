@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Product: Identifiable {
+    let id = UUID()
+    let imageName: String
+    let title: String
+    let price: String
+    let siteOrigin: String
+}

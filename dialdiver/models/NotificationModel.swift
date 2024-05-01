@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct NotificationModel {
+    let imageName: String
+    let title: String
+    let description: String
+    let time: String
+}
+
