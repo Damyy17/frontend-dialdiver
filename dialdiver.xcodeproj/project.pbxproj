@@ -36,7 +36,6 @@
 		B6BF35CB2BDD1980002A34D1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B6BF35CA2BDD1980002A34D1 /* .gitignore */; };
 		B6BF35CD2BDD19C1002A34D1 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF35CC2BDD19C1002A34D1 /* BottomNavBar.swift */; };
 		B6BF35D02BE01320002A34D1 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF35CF2BE01320002A34D1 /* FavoritesView.swift */; };
-		B6BF35D22BE01890002A34D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6BF35D12BE01890002A34D1 /* GoogleService-Info.plist */; };
 		B6BF35D42BE10CF0002A34D1 /* CustomNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF35D32BE10CF0002A34D1 /* CustomNotification.swift */; };
 		B6BF35D72BE116CD002A34D1 /* ShapeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF35D62BE116CD002A34D1 /* ShapeLine.swift */; };
 		B6BF35DA2BE11A2B002A34D1 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF35D92BE11A2B002A34D1 /* NotificationModel.swift */; };
@@ -97,7 +96,6 @@
 		B6BF35CA2BDD1980002A34D1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B6BF35CC2BDD19C1002A34D1 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 		B6BF35CF2BE01320002A34D1 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
-		B6BF35D12BE01890002A34D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6BF35D32BE10CF0002A34D1 /* CustomNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNotification.swift; sourceTree = "<group>"; };
 		B6BF35D62BE116CD002A34D1 /* ShapeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLine.swift; sourceTree = "<group>"; };
 		B6BF35D92BE11A2B002A34D1 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 		B6BF355C2BBF5D99002A34D1 /* dialdiver */ = {
 			isa = PBXGroup;
 			children = (
-				B6BF35D12BE01890002A34D1 /* GoogleService-Info.plist */,
 				B6BF359D2BC34CBC002A34D1 /* Info.plist */,
 				B6BF35AA2BDA83C3002A34D1 /* app */,
 				B6BF358F2BC34C13002A34D1 /* ui */,
@@ -458,7 +455,6 @@
 				B6BF35972BC34C86002A34D1 /* ClashDisplayRegular.otf in Resources */,
 				B6BF359B2BC34C86002A34D1 /* ClashDisplayMedium.otf in Resources */,
 				B6BF35622BBF5D9A002A34D1 /* Assets.xcassets in Resources */,
-				B6BF35D22BE01890002A34D1 /* GoogleService-Info.plist in Resources */,
 				B6BF35CB2BDD1980002A34D1 /* .gitignore in Resources */,
 				B6BF359C2BC34C86002A34D1 /* ClashDisplaySemibold.otf in Resources */,
 			);
