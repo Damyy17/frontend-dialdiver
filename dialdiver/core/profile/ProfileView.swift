@@ -18,9 +18,9 @@ struct ProfileView: View {
                 
                 Spacer()
                 
-                Image("notification-v2-icon")
-                    .resizable()
-                    .frame(width: 24, height: 24)
+//                Image("notification-v2-icon")
+//                    .resizable()
+//                    .frame(width: 24, height: 24)
                 
             }
             Section(){
